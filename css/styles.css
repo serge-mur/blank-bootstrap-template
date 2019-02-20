@@ -1,26 +1,5 @@
 body {
-    /* padding-top: 5rem; */
-}
-.sticky-navbar.sps {
-    width: 100%;    
-}
-.sticky-navbar.sps--abv {
 
-}
-.sticky-navbar.sps--blw {
-    position: fixed;
-    top: 0;
-}
-
-.test-sticky.sps {
-   
-}
-.test-sticky.sps--abv {
-
-}
-.test-sticky.sps--blw {
-    position: fixed;
-    top: 134px;
 }
 
 /*
