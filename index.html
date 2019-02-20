@@ -6,172 +6,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/js-offcanvas/js-offcanvas.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>blank bootstrap template</title>
 </head>
 
 <body>
+    <div class="c-offcanvas-content-wrap">
 
-    <header id="header">
+        <header id="header">
 
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="container">
 
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
+                <a href="#offCanvas" id="triggerButton" class="btn btn-primary m-2 d-lg-none">Menu</a>
 
-    </header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <main id="main" class="my-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <aside id="sidebar">
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
 
-                        <nav class="nav flex-column">
-                            <a class="nav-link active" href="#">Active</a>
-                            <a class="nav-link" href="#">Link</a>
-                            <a class="nav-link" href="#">Link</a>
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </nav>
+        </header>
+
+        <main id="main" class="my-2">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <aside id="sidebar">
+
+                            <nav class="nav flex-column">
+                                <a class="nav-link active" href="#">Active</a>
+                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </nav>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus
+                                eleifend odio aliquam et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit
+                                amet odio eu suscipit. Aenean tincidunt maximus tellus eu posuere. Donec sem purus, lacinia
+                                quis ligula eu, fringilla malesuada turpis. Curabitur convallis enim condimentum nulla tempor,
+                                id lacinia risus tincidunt. Curabitur ullamcorper tincidunt neque vel sollicitudin.</p>
+                        </aside>
+                    </div>
+                    <div class="col-12 col-lg-9">
+
+                        <h1>blank bootstrap template</h1>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus eleifend
                             odio aliquam et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit amet odio eu
                             suscipit. Aenean tincidunt maximus tellus eu posuere. Donec sem purus, lacinia quis ligula eu,
                             fringilla malesuada turpis. Curabitur convallis enim condimentum nulla tempor, id lacinia risus
                             tincidunt. Curabitur ullamcorper tincidunt neque vel sollicitudin.</p>
-                    </aside>
-                </div>
-                <div class="col-12 col-lg-9">
 
-                    <h1>blank bootstrap template</h1>
+                        <p>Proin vulputate tincidunt metus vel feugiat. Nulla vel vulputate erat. Quisque dapibus at dolor et
+                            dictum. Sed quam risus, ornare non faucibus eu, ornare condimentum lectus. Mauris vitae suscipit
+                            nunc. Nunc sit amet erat arcu. Sed vitae metus lacus. Donec quis libero porttitor, lobortis ex
+                            ut, imperdiet nisl.
+                        </p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus eleifend
-                        odio aliquam et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit amet odio eu suscipit.
-                        Aenean tincidunt maximus tellus eu posuere. Donec sem purus, lacinia quis ligula eu, fringilla malesuada
-                        turpis. Curabitur convallis enim condimentum nulla tempor, id lacinia risus tincidunt. Curabitur
-                        ullamcorper tincidunt neque vel sollicitudin.</p>
+                        <p>Vestibulum semper neque justo, a auctor turpis iaculis eu. Vestibulum porttitor ultricies ante vitae
+                            efficitur. Morbi augue orci, varius vel rhoncus nec, volutpat et purus. Sed vulputate nulla vitae
+                            leo porttitor, nec tincidunt quam facilisis. Vivamus id libero nec purus imperdiet tincidunt.
+                            Sed elementum urna ac dolor lobortis ultricies. Nulla eu vulputate leo. Vestibulum condimentum,
+                            ligula a fermentum pulvinar, urna mi placerat tellus, eget feugiat erat nisl ut turpis. Nulla
+                            facilisi.
+                        </p>
 
-                    <p>Proin vulputate tincidunt metus vel feugiat. Nulla vel vulputate erat. Quisque dapibus at dolor et dictum.
-                        Sed quam risus, ornare non faucibus eu, ornare condimentum lectus. Mauris vitae suscipit nunc. Nunc
-                        sit amet erat arcu. Sed vitae metus lacus. Donec quis libero porttitor, lobortis ex ut, imperdiet
-                        nisl.
-                    </p>
+                        <p>Donec ultricies euismod ante. Praesent accumsan eros eget arcu lacinia facilisis. Nullam vel nibh
+                            mi. Integer convallis massa quis ipsum ornare, id ullamcorper nunc lacinia. Vivamus sagittis
+                            iaculis tellus et consequat. Pellentesque nec est in metus lobortis dictum ut a dolor. Donec
+                            porttitor a massa a varius. Aliquam vitae odio non quam tempor pellentesque. Sed quis diam imperdiet,
+                            consequat sem sed, maximus urna. Phasellus volutpat bibendum nibh eu vehicula. Cras hendrerit
+                            rutrum rhoncus. Etiam urna mauris, tincidunt id lobortis eget, vestibulum sit amet orci.</p>
 
-                    <p>Vestibulum semper neque justo, a auctor turpis iaculis eu. Vestibulum porttitor ultricies ante vitae
-                        efficitur. Morbi augue orci, varius vel rhoncus nec, volutpat et purus. Sed vulputate nulla vitae
-                        leo porttitor, nec tincidunt quam facilisis. Vivamus id libero nec purus imperdiet tincidunt. Sed
-                        elementum urna ac dolor lobortis ultricies. Nulla eu vulputate leo. Vestibulum condimentum, ligula
-                        a fermentum pulvinar, urna mi placerat tellus, eget feugiat erat nisl ut turpis. Nulla facilisi.</p>
+                        <p>Suspendisse enim lectus, volutpat sit amet accumsan eu, malesuada in felis. Cras eros ante, tempor
+                            vitae tortor in, aliquet commodo ipsum. Cras rhoncus lacinia libero, sed aliquam sem. Praesent
+                            lorem orci, molestie ac mi a, porta porta ante. Ut fermentum pretium dui. Nunc et fermentum velit,
+                            eu blandit dolor. Ut placerat metus tristique euismod convallis. Donec nulla mi, malesuada a
+                            orci non, dapibus facilisis tellus. Sed hendrerit, justo nec ultricies tristique, orci tellus
+                            lacinia metus, id porta sapien arcu molestie lectus. Aliquam mi lorem, interdum condimentum massa
+                            eu, ullamcorper sodales ante. Etiam consectetur sodales nunc, et scelerisque risus.</p>
 
-                    <p>Donec ultricies euismod ante. Praesent accumsan eros eget arcu lacinia facilisis. Nullam vel nibh mi.
-                        Integer convallis massa quis ipsum ornare, id ullamcorper nunc lacinia. Vivamus sagittis iaculis
-                        tellus et consequat. Pellentesque nec est in metus lobortis dictum ut a dolor. Donec porttitor a
-                        massa a varius. Aliquam vitae odio non quam tempor pellentesque. Sed quis diam imperdiet, consequat
-                        sem sed, maximus urna. Phasellus volutpat bibendum nibh eu vehicula. Cras hendrerit rutrum rhoncus.
-                        Etiam urna mauris, tincidunt id lobortis eget, vestibulum sit amet orci.</p>
-
-                    <p>Suspendisse enim lectus, volutpat sit amet accumsan eu, malesuada in felis. Cras eros ante, tempor vitae
-                        tortor in, aliquet commodo ipsum. Cras rhoncus lacinia libero, sed aliquam sem. Praesent lorem orci,
-                        molestie ac mi a, porta porta ante. Ut fermentum pretium dui. Nunc et fermentum velit, eu blandit
-                        dolor. Ut placerat metus tristique euismod convallis. Donec nulla mi, malesuada a orci non, dapibus
-                        facilisis tellus. Sed hendrerit, justo nec ultricies tristique, orci tellus lacinia metus, id porta
-                        sapien arcu molestie lectus. Aliquam mi lorem, interdum condimentum massa eu, ullamcorper sodales
-                        ante. Etiam consectetur sodales nunc, et scelerisque risus.</p>
-
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </main>
+        </main>
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    footer
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        footer
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus eleifend
+                            odio aliquam et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit amet odio eu
+                            suscipit. Aenean tincidunt maximus tellus eu posuere. Donec sem purus, lacinia quis ligula eu,
+                            fringilla malesuada turpis. Curabitur convallis enim condimentum nulla tempor, id lacinia risus
+                            tincidunt. Curabitur ullamcorper tincidunt neque vel sollicitudin.</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus eleifend
-                        odio aliquam et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit amet odio eu suscipit.
-                        Aenean tincidunt maximus tellus eu posuere. Donec sem purus, lacinia quis ligula eu, fringilla malesuada
-                        turpis. Curabitur convallis enim condimentum nulla tempor, id lacinia risus tincidunt. Curabitur
-                        ullamcorper tincidunt neque vel sollicitudin.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
+
+    </div>
+    <!--end c-offcanvas-content-wrap-->
+
+    <aside id="offCanvas">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum leo dolor, finibus eleifend odio aliquam
+            et. Aenean eget vulputate est, nec rhoncus metus. Sed accumsan sit amet odio eu suscipit. Aenean tincidunt maximus
+            tellus eu posuere. Donec sem purus, lacinia quis ligula eu, fringilla malesuada turpis. Curabitur convallis enim
+            condimentum nulla tempor, id lacinia risus tincidunt. Curabitur ullamcorper tincidunt neque vel sollicitudin.</p>
+        </p>
+    </aside>
 
     <script src="libs/jquery-3.3.1.min.js"></script>
     <script src="libs/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="libs/js-offcanvas/js-offcanvas.pkgd.min.js"></script>
     <script src="js/scripts.js"></script>
 
 </body>
